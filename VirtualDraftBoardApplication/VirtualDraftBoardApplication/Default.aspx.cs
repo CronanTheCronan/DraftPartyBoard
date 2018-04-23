@@ -25,7 +25,7 @@ namespace VirtualDraftBoardApplication
             
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnLeagueInit_Click(object sender, EventArgs e)
         {
             int n = ddlNumberOfTeams.SelectedIndex;
 
@@ -64,7 +64,9 @@ namespace VirtualDraftBoardApplication
                 }
             }
 
-            Button1.Visible = false;
+            Session["Name"] = txtLeagueName.Text;
+            Response.Redirect("~/LeagueSetup.aspx");
+            btnLeagueInit.Visible = false;
         }
 
         //protected void ddlNumberOfTeams_SelectedIndexChanged(object sender, EventArgs e)

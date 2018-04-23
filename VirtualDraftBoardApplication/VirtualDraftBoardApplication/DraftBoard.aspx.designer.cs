@@ -10,60 +10,42 @@
 namespace VirtualDraftBoardApplication {
     
     
-    public partial class _Default {
+    public partial class DraftBoard {
         
         /// <summary>
-        /// lblLeagueName control.
+        /// ddlTeamSelect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLeagueName;
+        protected global::System.Web.UI.WebControls.DropDownList ddlTeamSelect;
         
         /// <summary>
-        /// txtLeagueName control.
+        /// ddlPositionSelect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLeagueName;
+        protected global::System.Web.UI.WebControls.DropDownList ddlPositionSelect;
         
         /// <summary>
-        /// lblNumberOfTeams control.
+        /// btnFilter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNumberOfTeams;
+        protected global::System.Web.UI.WebControls.Button btnFilter;
         
         /// <summary>
-        /// ddlNumberOfTeams control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlNumberOfTeams;
-        
-        /// <summary>
-        /// btnLeagueInit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLeagueInit;
-        
-        /// <summary>
-        /// Panel1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel1;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }

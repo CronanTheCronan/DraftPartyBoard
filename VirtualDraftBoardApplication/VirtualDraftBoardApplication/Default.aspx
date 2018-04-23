@@ -7,7 +7,7 @@
     <h3>Setup Your League</h3>
     <p>
         <asp:Label ID="lblLeagueName" runat="server" Text="League Name:"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtLeagueName" runat="server"></asp:TextBox>
     </p>
     <p>
         <asp:Label ID="lblNumberOfTeams" runat="server" Text="Number of Teams:"></asp:Label>
@@ -15,7 +15,7 @@
         </asp:DropDownList>
         </p>
     <p>
-        <asp:Button ID="Button1" runat="server" Text="Go" OnClick="Button1_Click" />
+        <asp:Button ID="btnLeagueInit" runat="server" Text="Go" OnClick="btnLeagueInit_Click" />
     </p>
     <p>
         <asp:Panel ID="Panel1" runat="server"></asp:Panel>
